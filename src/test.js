@@ -3,7 +3,9 @@ var marmota = new Marmota();
 let ciocolate = getCiocolate();
 function traba() {
   for (var ciocolata in ciocolate) {
-    marmota.inveleste(ciocolata, "staniol")
+    if (ciocolate.hasOwnProperty(var ciocolata)) {
+  marmota.inveleste(ciocolata, "staniol")
+}
   }
   fericita(marmota);
 }
