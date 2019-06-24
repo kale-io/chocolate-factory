@@ -8,3 +8,4 @@ function traba() {
   }
   fericita(marmota);
 }
+var f = function(buz) { return buz; }
