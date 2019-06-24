@@ -3,7 +3,8 @@ var marmota = new Marmota();
 var ciocolate = getCiocolate();
 function traba() {
   for (var ciocolata in ciocolate) {
-    marmota.inveleste(ciocolata, "staniol")
+    if(foo == bar)
+      marmota.inveleste(ciocolata, "staniol")
   }
   fericita(marmota);
 }
